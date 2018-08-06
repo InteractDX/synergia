@@ -1,0 +1,327 @@
+/*******************************************************
+* Copyright 2018 Aurionpro Solutions Limited
+*
+* This file is part of Aurionpro Designer tool.
+* It can not be copied and/or distributed without the express
+* permission of Aurionpro Solutions Limited.
+*
+* Author: Kuldeep.Bhatt, Zymr
+*******************************************************/
+body 
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: #404d5b;
+    width: 100%;
+    margin: 0 auto;
+}
+        
+.modal 
+{
+    background: rgba(0, 0, 0, 0.3);
+}
+        
+.modal-content 
+{
+    padding: 30px;
+}
+.form-builder-preview
+{
+    background-image: url('../images/bg.png') ;
+    background-repeat: repeat;
+    border-width: 0 1px 0 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 75%;
+}
+.form-builder-toolbox
+{
+    width: 15%;
+    background: #fff;
+    margin-top: -30px;
+}
+.form-builder-toolbox ul {
+    padding: 0;
+}
+.form-builder-toolbox ul li {
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    list-style: outside none none;
+    margin: 5px;
+    padding: 10px;
+}
+.form-builder-toolbox ul li i {
+    margin: 0 15px 0 10px;
+}
+.w75percent
+{
+    width: 75%;
+}
+.w85percent
+{
+    width: 85%;
+}
+.w100percent
+{
+    width: 100%;
+}
+.w25percent
+{
+    width: 25%;
+}
+.w15percent
+{
+    width: 15%;
+}
+.h22px
+{
+    height: 22px;
+}
+.h30px
+{
+    height: 30px;
+}
+.p2px
+{
+    padding: 2px;
+}
+.wraptxt
+{
+    word-wrap: break-word;
+}
+.broder1
+{
+    border: 1px;
+}
+.imageplaceholder {
+    min-height: 100px;
+    min-width: 100px;
+    display:block;
+    border:1px;
+}
+.fl
+{
+    float: left;
+}
+.border-solid
+{
+   border-style: solid;
+}
+.bold
+{
+    font-weight: bold;
+}
+.font-normal
+{
+  font-weight: normal;
+}
+.p5px
+{
+padding: 5px;
+}
+.pr5px
+{
+    padding-right: 5px;
+}
+.align-left
+{
+    text-align: left;
+}
+.align-right
+{
+    text-align: right;
+}
+.designer_selectrow {
+    border-color:red !important;
+    background-color: #f0f8ff;
+}
+.default-designer-hr
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.draggable.borderred {
+    border-color:red;
+}
+.designer_draggable {
+    padding : 5px;
+    border: 1px dashed #727272;
+    position: relative;
+}
+.designer_draggable:before {
+    content: '';
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.ReactModal__Overlay--after-open {
+   z-index: 1000;
+   background-color: #f9fbff!important;
+   opacity: 1.0;
+}
+.tblstyle{width:100%}
+.rt-th{
+    background-color:ghostwhite;
+}
+.imgcls{
+    height:100px;
+    width:150px;
+}
+
+.noborder {
+    border:0px;
+    border-color: black;
+}
+.controlborder{
+    width:100%;
+}
+.socialicon {
+    font-size: 50px !important;
+    color: blue;
+}
+.sociallinkplaceholder {
+    min-height:50px !important;
+    min-width:50px !important;
+}
+.carousel-inner > .item > img,.carousel-inner > .item > a > img {
+      /*width: 70%;*/
+      margin: auto;
+}
+.carousalclass {
+    width:100% !important;
+    height:100px !important;
+}
+.carousel-inner {
+    width: 100% !important;
+    height: 100%;
+}
+
+text {
+    font-family: sans-serif;
+    font-size: 12px;
+    /*fill: blue;*/
+}
+#tooltip {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+}
+#tooltip.hidden {
+    opacity: 0;
+}
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bar {
+  fill: #0000ff;
+}
+
+.bar:hover {
+  fill: red;
+}
+.bartext {
+    fill: #fff;
+}
+.axis--x path {
+  display: none;
+}
+#textControl,#imageControl,#inputControl,#socialControl,#infoControl{
+    background-color:rgb(100,150,250);
+    border:none;
+    font-weight: bold;
+    color:#fff;
+}
+.delete-icon {
+    z-index:1000 ;
+}
+/*for NOw*/
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+  
+.axis-title{
+  fill: #5B6770;
+  letter-spacing: 1px;
+}
+
+.line {
+  stroke: #27689d;
+  stroke-width: 5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+  
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 2,4;
+}
+.glyphicon {
+    z-index: 1000 !important;
+}
+.chart-container {
+  /*height:100%;*/
+  /*min-width: 200px;*/
+  min-height: 300px;
+  border: 0px dotted silver;
+}
+.svg-content-responsive {
+    display: inline-block;
+    /*position: absolute;
+    top: 10px;
+    left: 0;*/
+}
+#divproperty
+{
+overflow-x: hidden !important;
+}
+
+.navbar {
+  min-height: 40px !important;
+  margin-bottom: 5px !important;
+  margin-left: 5px;
+}
+.navbar-nav>li>a {
+  padding: 5px !important;
+}
+rect {
+    stroke-width: 2;
+  }
+.legend {
+    font-size: 12px;
+  }

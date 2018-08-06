@@ -1,0 +1,223 @@
+/*******************************************************
+* Copyright 2018 Aurionpro Solutions Limited
+*
+* This file is part of Aurionpro Designer tool.
+* It can not be copied and/or distributed without the express
+* permission of Aurionpro Solutions Limited.
+*
+* Author: Hiren.Nariya, Zymr
+*******************************************************/
+body 
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: #404d5b;
+    width: 100%;
+    margin: 0 auto;
+}        
+.modal 
+{
+    background: rgba(0, 0, 0, 0.3);
+}
+        
+.modal-content 
+{
+    padding: 30px;
+}
+.form-builder-preview
+{
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+    border-width: 0 1px 0 0;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+.form-builder-toolbox
+{
+    width: 15%;
+    background: #fff;
+    margin-top: -30px;
+}
+.form-builder-toolbox ul {
+    padding: 0;
+}
+.form-builder-toolbox ul li {
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    list-style: outside none none;
+    margin: 5px;
+    padding: 10px;
+}
+.form-builder-toolbox ul li i {
+    margin: 0 15px 0 10px;
+}
+.w75percent
+{
+    width: 75%;
+}
+.w85percent
+{
+    width: 85%;
+}
+.w100percent
+{
+    width: 100%;
+}
+.w25percent
+{
+    width: 25%;
+}
+.w15percent
+{
+    width: 15%;
+}
+.h22px
+{
+    height: 22px;
+}
+.h30px
+{
+    height: 30px;
+}
+.p2px
+{
+    padding: 2px;
+}
+.wraptxt
+{
+    word-wrap: break-word;
+}
+.broder1
+{
+    border: 1px;
+}
+.imageplaceholder {
+    min-height: 100px;
+    min-width: 100px;
+    display:block;
+    border:1px;
+}
+.fl
+{
+    float: left;
+}
+.border-solid
+{
+   border-style: solid;
+}
+.bold
+{
+    font-weight: bold;
+}
+.font-normal
+{
+  font-weight: normal;
+}
+.p5px
+{
+padding: 5px;
+}
+.pr5px
+{
+    padding-right: 5px;
+}
+.align-left
+{
+    text-align: left;
+}
+.align-right
+{
+    text-align: right;
+}
+.default-designer-hr
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.controlborder{
+    width:100%;
+}
+.noborder {
+    border:0px;
+    border-color: black;
+}
+.socialicon {
+    font-size: 50px !important;
+    color: blue;
+}
+.sociallinkplaceholder {
+    min-height:50px !important;
+    min-width:50px !important;
+}
+.carousel-inner > .item > img,.carousel-inner > .item > a > img {
+      /*width: 70%;*/
+      margin: auto;
+}
+.carousalclass {
+    width:100% !important;
+    height:100px !important;
+}
+.carousel-inner {
+    width: 100% !important;
+    height: 100%;
+}
+.tblstyle{width:100%}
+.rt-th{
+    background-color:ghostwhite;
+}
+.imgcls{
+    height:100px;
+    width:150px;
+}
+
+.designer_draggable {
+    padding : 1px;
+    border: 1px dashed #727272;
+    height: 100%;
+}
+.designer_draggable.borderred {
+    border-color:red;
+}
+.designer_firstposition
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.w135px
+{
+    width: 135px;
+}
+.designer_section
+{
+   min-height: "50px";
+   width: "800px";
+   overflow:"hidden"
+}
+.designer_sectioncolumn
+{
+   border: '1px dashed #727272';
+   min-height: 50px;
+}
+.gmap-container {
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+.m5px
+{
+    margin: 5px;
+}
+.rowWithoutMargin
+{
+    margin: 0px !important;
+}
+.p15 {
+    padding: 15px;
+}

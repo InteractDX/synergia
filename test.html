@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+       <!--<script src="https://raw.github.com/eligrey/FileSaver.js/master/FileSaver.js"/>-->
+       
+    </head>
+    <body>
+
+
+        
+<input type="file"  onchange='readTemplateFile(event)'>
+<input type="file"  onchange='readJSONFile(event)'>
+<button onclick="generateTemplate()">Final Template</button>
+
+<script type="text/javascript">
+
+var templatedata;
+var JSONdata;
+function readTemplateFile(evt) {
+    var f = evt.target.files[0];
+        if (f) {
+            var r = new FileReader();
+            r.onload = function (e) {
+            var contents = e.target.result;
+            templatedata= contents;
+                }
+            r.readAsText(f);
+            } else {
+                alert("Failed to load file");
+            }
+    }
+    function readJSONFile(evt) {
+    var f = evt.target.files[0];
+        if (f) {
+            var r = new FileReader();
+            r.onload = function (e) {
+            var contents = e.target.result;
+            JSONdata= contents;
+                }
+            r.readAsText(f);
+            } else {
+                alert("Failed to load file");
+            }
+    }
+    function generateTemplate()
+    {
+       var finalstring=templatedata.replace("{EncodedContentInBase64}", btoa(JSONdata));
+         var html = new Blob([finalstring], {type: "attachment/html;charset=utf-8"});
+        //saveAs(html, "output.html");
+        
+       console.log(finalstring);
+    }
+    //document.getElementById('myFile').addEventListener('change', readSingleFile, false);
+</script>
+
+    </body>
+</html>
+
+
+       
+        

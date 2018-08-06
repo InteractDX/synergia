@@ -1,0 +1,61 @@
+{
+	"USER": {
+		"ACCOUNT_SUMMARY": [{
+			"ACCOUNT": "Savings",
+			"CURRENCY": "GBP",
+			"AMOUNT": 1771.42,
+			"TYPE": "Last Transaction",
+			"COLOR": "#3366CC"
+		}, {
+			"ACCOUNT": "Wealth",
+			"CURRENCY": "GBP",
+			"AMOUNT": 7830.00,
+			"TYPE": "Last Transaction",
+			"COLOR": "#d62728"
+		}, {
+			"ACCOUNT": "Term",
+			"CURRENCY": "GBP",
+			"AMOUNT": 22730.11,
+			"COLOR": "#ff7f0e",
+			"TYPE": "Balance"
+		}, {
+			"ACCOUNT": "Term Deposit",
+			"CURRENCY": "GBP",
+			"AMOUNT": 103000.00,
+			"COLOR": "#2ca02c",
+			"TYPE": "Balance"
+		}, {
+			"ACCOUNT": "Wealth",
+			"CURRENCY": "GBP",
+			"AMOUNT": 10000.00,
+			"TYPE": "Balance",
+			"COLOR": "#d62728"
+		}, {
+			"ACCOUNT": "Savings",
+			"CURRENCY": "DOLLOR",
+			"AMOUNT": 98.00,
+			"TYPE": "Last Transaction",
+			"COLOR": "#3366CC"
+		}],
+		"CUSTOMER_NAME": "Laura J Donald",
+		"ADDRESS1": "4000 Executive Parkway,",
+		"ADDRESS2": "Saint Globin Rd # 250",
+		"ADDRESS3": "Canary Wharf, E94583",
+		"STATEMENT_DATE": "1-APR-16",
+		"FROM_DATE": "Annual Statement",
+		"TO_DATE": "31 Oct 2014",
+		"ACC_NO": "371860120",
+		"CUSTOMER_ID": "37112666",
+		"UNIQUE_ID": "David Miller",
+		"BRANCH_ID": "ULLS00012",
+		"RMCONTACT": "+44167000045",
+		"RMNAME": "+44167000045",
+		"BRANCH_ADDRESS1": "Saint College Rd,",
+		"BRANCH_ADDRESS2": "PO BOX 345,",
+		"BRANCH_ADDRESS3": "DUBLIN",
+		"LAT":25.363,
+		"LONG":72.044,
+		"username":"test",
+		"password":"test"
+	}
+}
