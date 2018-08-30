@@ -21,7 +21,7 @@ var undoIndex = 0;
 var currentPosition;
 var selectedView='';
 var _datamodalpopup=[];
-var _datamodalpopupMapping=[];
+var _datamodalpopupMapping={};
 var _modalpopupnames=[];
 var _selectedModelDialog='';
 
@@ -83,7 +83,7 @@ var ControlStore = Reflux.createStore({
     this._data = [];
     this._datamodalpopup = [];
     this._datamodalpopup=[];
-    this._datamodalpopupMapping=[];
+    this._datamodalpopupMapping={};
     this._modalpopupnames=[];
 
     let updateData={};

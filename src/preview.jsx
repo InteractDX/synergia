@@ -113,7 +113,7 @@ class Preview extends React.Component
         this.state = {
             data: [],
             datamodalpopup:[],
-            datamodalpopupMapping:[],
+            datamodalpopupMapping:{},
             modalpopupnames:[],
             selectedView:'designer',
             selectedModelDialog:'',
@@ -267,7 +267,7 @@ class Preview extends React.Component
         case "loaddefault":
             this.setState({data: []});
             this.setState({datamodalpopup: []});
-            this.setState({datamodalpopupMapping: []});
+            this.setState({datamodalpopupMapping: {}});
             this.setState({modalpopupnames: []});
          break;
         }
@@ -829,7 +829,7 @@ if(cntrl){
           this.setState({selectedControl: []});
 
           this.setState({datamodalpopup: []});
-          this.setState({datamodalpopupMapping: []});
+          this.setState({datamodalpopupMapping: {}});
           this.setState({modalpopupnames: []});
           this.setState({selectedView: 'designer'});
 
@@ -2106,7 +2106,7 @@ handleLocalJsonFile(e, results)
  }
 renderModalPopupDesignerData()
 {
-  
+
     return(
         <div>
         {
